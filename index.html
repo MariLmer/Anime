@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anime World</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zyVb6e+Qp0v9GzMeK3u2b5I5hjbJlt4+a7qzyQop" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zyVb6e+Qp0v9GzMeK3u2b5I5hjbJlt4+a7qzyQop" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0mpX5t5g/mxO1f5F8f0v56st6qA2K14d1j5Dkq6+j5eFb1+Y" crossorigin="anonymous"></script>
+
+    <style>
+        
+        .anime-hero {
+            background-image: url('image/bagh.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        
+        body {
+            background-color: #121212;
+            color: white;
+        }
+
+        .navbar {
+            background-color: #222;
+        }
+
+        .navbar a {
+            color: #f00 !important;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #f00;
+        }
+
+        .btn-primary {
+            background-color: #f00;
+            border-color: #f00;
+        }
+
+        .anime-stories h4 {
+            color: #00f;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+        }
+
+        footer a {
+            color: #f00;
+        }
+
+        footer a:hover {
+            color: #00f;
+        }
+
+        .anime-story {
+            border: 2px solid #f00;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .anime-story img {
+            border-radius: 8px;
+            height: 350px; 
+            width: 100%; 
+            object-fit: cover; 
+        }
+        .anime-story h4 {
+            color: #f00;
+        }
+
+        .anime-story p {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="anime-site">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Anime World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Episodes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Genres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div class="jumbotron jumbotron-fluid anime-hero">
+        <div class="container">
+            <h1 class="display-4">Explore the World of Anime</h1>
+        </div>
+    </div>
+
+    <!-- ANIME STORIES -->
+<div class="container anime-stories">
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/attack.jpg" class="img-fluid" alt="Anime 1">
+                    <h4>Attack on Titan</h4>
+                    <p>Action | Adventure</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/naroto.jpg" class="img-fluid" alt="Anime 2">
+                    <h4>Naruto</h4>
+                    <p>Action | Ninja</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/monkey-luffy.jpg" class="img-fluid" alt="Anime 3">
+                    <h4>One Piece</h4>
+                    <p>Action | Adventure</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/anime.jpg" class="img-fluid" alt="Anime 4">
+                    <h4>Demon Slayer</h4>
+                    <p>Action | Fantasy</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- NOUVELLE IMAGES -->
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/lovel.jpg" class="img-fluid" alt="Anime 5">
+                    <h4>Solo Leveling</h4>
+                    <p>Action | Adventures</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/JJK.jpg" class="img-fluid" alt="Anime 6">
+                    <h4>Jujutsu kaisen</h4>
+                    <p>Action | Supernatural</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/high.jpg" class="img-fluid" alt="Anime 7">
+                    <h4>The God of High School</h4>
+                    <p>Martial Arts | Supernatural</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <a href="#">
+                <div class="anime-story">
+                    <img src="image/black.jpg" class="img-fluid" alt="Anime 8">
+                    <h4>Black Clover</h4>
+                    <p>Action | Magic</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About Anime World</h5>
+                    <p>Your go-to place for all things anime. Discover, watch, and enjoy anime with us.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Episodes</a></li>
+                        <li><a href="#" class="text-white">Shop</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center py-3">
+                &copy; 2025 Anime World. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
