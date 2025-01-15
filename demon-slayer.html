@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimetsu no Yaiba Episodes</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .navbar {
+            background-color: #222;
+        }
+        .navbar a {
+            color: #f00 !important;
+        }
+        .navbar-toggler-icon {
+            background-color: #f00;
+        }
+        .btn-primary {
+            background-color: #f00;
+            border-color: #f00;
+        }
+        .anime-hero {
+            background-image: url('img/anime.jpg'); /* Use the Kimetsu no Yaiba poster */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+        }
+        .anime-hero h1 {
+            font-size: 2.5rem;
+        }
+        .episode-list {
+            margin-top: 20px;
+        }
+        .episode-item {
+            border: 2px solid #f00;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #333;
+            text-align: center;
+            align-content: space-evenly;
+        }
+        .episode-item img {
+            border-radius: 8px;
+            height: 300px;
+            width: 100%;
+            object-fit: cover;
+        }
+        .episode-item h4 {
+            color: #f00;
+            margin-top: 10px;
+        }
+        .episode-item a {
+            color: #f00;
+            text-decoration: none;
+        }
+        .episode-item a:hover {
+            color: #ff6666;
+        }
+        @media (max-width: 768px) {
+            .anime-hero h1 {
+                font-size: 1.8rem;
+            }
+            .episode-item img {
+                height: 150px;
+            }
+        }
+        @media (max-width: 576px) {
+            .anime-hero {
+                padding: 60px 0;
+            }
+            .anime-hero h1 {
+                font-size: 1.5rem;
+            }
+            .episode-item img {
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="anime-site">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Anime World</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Episodes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Genres</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <div class="jumbotron jumbotron-fluid anime-hero">
+            <div class="container">
+                <h1 class="display-4">Kimetsu no Yaiba Episodes</h1>
+            </div>
+        </div>
+
+        <!-- Episode List -->
+        <div class="container episode-list">
+            <div class="row">
+                <!-- Episode 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="episode-item">
+                        <a href="https://sa47173821123.blob.core.windows.net/animevideos/Kometsu no Yaiba EP 01.mp4" target="_blank">
+                            <img src="img/anime.jpg" alt="Episode 1">
+                            <h4>Episode 1: Cruelty</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- Episode 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="episode-item">
+                        <a href="https://sa47173821123.blob.core.windows.net/animevideos/Kimetsu no Yaiba EP 02.mp4" target="_blank">
+                            <img src="img/anime.jpg" alt="Episode 2">
+                            <h4>Episode 2: Trainer Sakonji Urokodaki</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- Episode 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="episode-item">
+                        <a href="https://sa47173821123.blob.core.windows.net/animevideos/Kimetsu no Yaiba EP 03.mp4" target="_blank">
+                            <img src="img/anime.jpg" alt="Episode 3">
+                            <h4>Episode 3: Sabito and Makomo</h4>
+                        </a>
+                    </div>
+                </div>
+                <!-- Add more episodes as needed -->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>About Anime World</h5>
+                        <p>Your go-to place for all things anime. Discover, watch, and enjoy anime with us.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html" class="text-white">Home</a></li>
+                            <li><a href="#" class="text-white">Episodes</a></li>
+                            <li><a href="#" class="text-white">Shop</a></li>
+                            <li><a href="#" class="text-white">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Follow Us</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Facebook</a></li>
+                            <li><a href="#" class="text-white">Twitter</a></li>
+                            <li><a href="#" class="text-white">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="text-center py-3">
+                    &copy; 2025 Anime World. All rights reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
