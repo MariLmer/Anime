@@ -3,7 +3,7 @@
 $host = "anime-db-server.database.windows.net";
 $username = "databaseadmin";
 $password = "dbuser@12345";
-$dbname = "anime";
+$dbname = "anime_world";
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $dbname);
