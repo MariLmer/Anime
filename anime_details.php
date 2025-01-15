@@ -1,5 +1,7 @@
 <?php
-// Database connection details
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 $host = "anime-db-server.database.windows.net";
 $username = "databaseadmin";
 $password = "dbuser@12345";
@@ -13,8 +15,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Get the anime ID from the query string
-$anime_id = isset($_GET['anime_id']) ? intval($_GET['anime_id']) : 0;
+$anime_id = isset($_POST['anime_id']) ? intval($_POST['anime_id']) : 0;
 
 // Fetch anime details
 $anime_sql = "SELECT name FROM anime WHERE anime_id = ?";
@@ -55,7 +56,7 @@ $episodes_result = $episodes_stmt->get_result();
     <?php else: ?>
         <p class="text-danger">Anime not found!</p>
     <?php endif; ?>
-    <a href="index.php" class="btn btn-primary mt-4">Back to Anime List</a>
+    <a href="index.html" class="btn btn-primary mt-4">Back to Anime List</a>
 </div>
 </body>
 </html>
@@ -64,3 +65,4 @@ $anime_stmt->close();
 $episodes_stmt->close();
 $conn->close();
 ?>
+
